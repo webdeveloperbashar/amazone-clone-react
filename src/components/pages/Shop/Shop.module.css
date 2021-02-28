@@ -1,0 +1,35 @@
+/* * Google font link* */
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+body {
+  font-family: "Rajdhani", sans-serif;
+}
+a {
+  color: white !important;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+a:hover {
+  text-decoration: none;
+}
+.productItems {
+  background: linear-gradient(45deg, #e0e8eb, transparent);
+}
+.shoppingCart {
+  color: white !important;
+  position: relative;
+  font-size: 30px;
+  width: 40px;
+  position: fixed;
+  right: 80px;
+  top: 26px;
+  z-index: 99999;
+}
+.cartCount {
+  font-size: 20px;
+  position: absolute;
+  top: -20px;
+  left: 13px;
+  font-weight: 600;
+  color: #f08804;
+}
